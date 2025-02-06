@@ -1,12 +1,12 @@
 package trab;
 
 // Produto
-public class Car {
+public class Carro {
     private String Motor;
     private int rodas;
     private String cor;
 
-    private Car(CarBuilder builder) {
+    private Carro(CarBuilder builder) {
         this.Motor = builder.Motor;
         this.rodas = builder.rodas;
         this.cor = builder.cor;
